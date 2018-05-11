@@ -11,5 +11,5 @@
         android:gravity="center_vertical"
         android:padding="5dp"
         android:layout_weight="1"
-        android:text="Product Name" />
+        android:text="@string/product_name" />
 </LinearLayout>

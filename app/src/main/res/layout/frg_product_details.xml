@@ -10,5 +10,5 @@
         android:lines="4"
         android:padding="5dp"
         android:layout_weight="1"
-        android:text="Product Details" />
+        android:text="@string/product_details" />
 </LinearLayout>

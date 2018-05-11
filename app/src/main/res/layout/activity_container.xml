@@ -18,14 +18,14 @@
         android:name="b12app.vyom.com.multifrag1activitytest.fragments.ProductImageFragment"
         android:layout_width="0dp"
         android:layout_weight="1"
-        android:layout_height="100dp" />
+        android:layout_height="@dimen/frag_height" />
 
     <fragment
         android:id="@+id/fragName"
         android:name="b12app.vyom.com.multifrag1activitytest.fragments.ProductNameFragment"
         android:layout_width="0dp"
         android:layout_weight="1"
-        android:layout_height="100dp" /></LinearLayout>
+        android:layout_height="@dimen/frag_height" /></LinearLayout>
 
 
     <fragment
@@ -34,7 +34,7 @@
         android:layout_marginRight="@dimen/margin_reg"
         android:name="b12app.vyom.com.multifrag1activitytest.fragments.ProductDetailsFragment"
         android:layout_width="match_parent"
-        android:layout_height="100dp" />
+        android:layout_height="@dimen/frag_height" />
 
 
 </LinearLayout>
