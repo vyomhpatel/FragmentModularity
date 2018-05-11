@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.ContainerActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_reg"
+        android:layout_marginLeft="@dimen/margin_reg"
+        android:layout_marginRight="@dimen/margin_reg"
+        android:orientation="horizontal">
+    <fragment
+        android:id="@+id/fragImage"
+        android:name="b12app.vyom.com.multifrag1activitytest.fragments.ProductImageFragment"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="100dp" />
+
+    <fragment
+        android:id="@+id/fragName"
+        android:name="b12app.vyom.com.multifrag1activitytest.fragments.ProductNameFragment"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="100dp" /></LinearLayout>
+
+
+    <fragment
+        android:id="@+id/fragDesc"
+        android:layout_marginLeft="@dimen/margin_reg"
+        android:layout_marginRight="@dimen/margin_reg"
+        android:name="b12app.vyom.com.multifrag1activitytest.fragments.ProductDetailsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+
+</LinearLayout>
