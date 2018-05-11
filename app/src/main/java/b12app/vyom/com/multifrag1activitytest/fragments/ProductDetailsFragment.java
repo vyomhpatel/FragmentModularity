@@ -18,6 +18,7 @@ import butterknife.ButterKnife;
 public class ProductDetailsFragment extends Fragment {
 
     private static final String TAG ="ProductDetailsFragment" ;
+    public static final String RECIPE = "Recipe: ";
     TextView tvProductDesc;
 
     @Nullable
@@ -37,7 +38,7 @@ public class ProductDetailsFragment extends Fragment {
     }
 
     public void setTvProductDesc(String desc){
-        tvProductDesc.setText(desc);
+        tvProductDesc.setText(RECIPE +desc);
 
     }
 
